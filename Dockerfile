@@ -23,7 +23,8 @@
 #  -v /tmp/vocto/configgui.ini:/opt/voctomix/voctogui/config.ini -v /tmp/.X11-unix:/tmp/.X11-unix -v /tmp/.docker.xauth:/tmp/.docker.xauth local/voctomix gui
 
 
-FROM ubuntu:wily
+# "latest" == "current LTS"
+FROM ubuntu:latest
 
 MAINTAINER Bjoern Riemer <bjoern.riemer@web.de>
 
